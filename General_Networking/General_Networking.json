@@ -1,0 +1,852 @@
+{
+  "__type__": "Deck",
+  "children": [
+
+  ],
+  "crowdanki_uuid": "7f668c68-f0e5-11e9-89bf-3860778759a8",
+  "deck_config_uuid": "7f668c69-f0e5-11e9-8c8a-3860778759a8",
+  "deck_configurations": [
+    {
+      "__type__": "DeckConfig",
+      "autoplay": true,
+      "crowdanki_uuid": "7f668c69-f0e5-11e9-8c8a-3860778759a8",
+      "dyn": false,
+      "lapse": {
+        "delays": [
+          10
+        ],
+        "leechAction": 0,
+        "leechFails": 8,
+        "minInt": 1,
+        "mult": 0.0
+      },
+      "maxTaken": 60,
+      "name": "Default",
+      "new": {
+        "bury": true,
+        "delays": [
+          1,
+          10
+        ],
+        "initialFactor": 2500,
+        "ints": [
+          1,
+          4,
+          7
+        ],
+        "order": 0,
+        "perDay": 50,
+        "separate": true
+      },
+      "replayq": true,
+      "rev": {
+        "bury": true,
+        "ease4": 1.3,
+        "fuzz": 0.05,
+        "ivlFct": 1.0,
+        "maxIvl": 36500,
+        "minSpace": 1,
+        "perDay": 100
+      },
+      "timer": 0
+    }
+  ],
+  "desc": "",
+  "dyn": 0,
+  "extendNew": 10,
+  "extendRev": 50,
+  "media_files": [
+
+  ],
+  "name": "General Networking",
+  "note_models": [
+    {
+      "__type__": "NoteModel",
+      "crowdanki_uuid": "bfa36940-2042-11e9-8b6a-acbc3287506b",
+      "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}\n",
+      "flds": [
+        {
+          "font": "Arial",
+          "media": [
+
+          ],
+          "name": "Front",
+          "ord": 0,
+          "rtl": false,
+          "size": 20,
+          "sticky": false
+        },
+        {
+          "font": "Arial",
+          "media": [
+
+          ],
+          "name": "Back",
+          "ord": 1,
+          "rtl": false,
+          "size": 20,
+          "sticky": false
+        },
+        {
+          "font": "Arial",
+          "media": [
+
+          ],
+          "name": "RerverseCardID",
+          "ord": 2,
+          "rtl": false,
+          "size": 20,
+          "sticky": false
+        },
+        {
+          "font": "Arial",
+          "media": [
+
+          ],
+          "name": "Reference",
+          "ord": 3,
+          "rtl": false,
+          "size": 20,
+          "sticky": false
+        }
+      ],
+      "latexPost": "\\end{document}",
+      "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+      "name": "Basic",
+      "req": [
+        [
+          0,
+          "all",
+          [
+            0
+          ]
+        ]
+      ],
+      "sortf": 0,
+      "tags": [
+
+      ],
+      "tmpls": [
+        {
+          "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Back}}\n\n<br/><br/>\nSee: <br/>{{Reference}}",
+          "bafmt": "",
+          "bqfmt": "",
+          "did": null,
+          "name": "Card 1",
+          "ord": 0,
+          "qfmt": "{{Front}}"
+        }
+      ],
+      "type": 0,
+      "vers": [
+
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "What is Internet Protocol Number 1?",
+        "ICMP",
+        "6100100001",
+        "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xhtml"
+      ],
+      "flags": 0,
+      "guid": "6100100000",
+      "note_model_uuid": "bfa36940-2042-11e9-8b6a-acbc3287506b",
+      "tags": [
+
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "What is the Internet Protocol Number for ICMP?",
+        "1",
+        "6100100000",
+        "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xhtml"
+      ],
+      "flags": 0,
+      "guid": "6100100001",
+      "note_model_uuid": "bfa36940-2042-11e9-8b6a-acbc3287506b",
+      "tags": [
+
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "What is Internet Protocol Number 50?",
+        "ESP - Encapsulating Security Payload",
+        "6100100003",
+        "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xhtml"
+      ],
+      "flags": 0,
+      "guid": "6100100002",
+      "note_model_uuid": "bfa36940-2042-11e9-8b6a-acbc3287506b",
+      "tags": [
+
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "What is the Internet Protocol Number for ESP (Encapsulating Security Payload)?",
+        "50",
+        "6100100002",
+        "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xhtml"
+      ],
+      "flags": 0,
+      "guid": "6100100003",
+      "note_model_uuid": "bfa36940-2042-11e9-8b6a-acbc3287506b",
+      "tags": [
+
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "What is Internet Protocol Number 51?",
+        "AH - Authentication Header",
+        "6100100005",
+        "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xhtml"
+      ],
+      "flags": 0,
+      "guid": "6100100004",
+      "note_model_uuid": "bfa36940-2042-11e9-8b6a-acbc3287506b",
+      "tags": [
+
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "What is the Internet Protocol Number for AH (Authentication Header)?",
+        "51",
+        "6100100004",
+        "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xhtml"
+      ],
+      "flags": 0,
+      "guid": "6100100005",
+      "note_model_uuid": "bfa36940-2042-11e9-8b6a-acbc3287506b",
+      "tags": [
+
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "What is Internet Protocol Number 6?",
+        "TCP",
+        "6100100007",
+        "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xhtml"
+      ],
+      "flags": 0,
+      "guid": "6100100006",
+      "note_model_uuid": "bfa36940-2042-11e9-8b6a-acbc3287506b",
+      "tags": [
+
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "What is the Internet Protocol Number for TCP?",
+        "6",
+        "6100100006",
+        "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xhtml"
+      ],
+      "flags": 0,
+      "guid": "6100100007",
+      "note_model_uuid": "bfa36940-2042-11e9-8b6a-acbc3287506b",
+      "tags": [
+
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "What is Internet Protocol Number 17?",
+        "UDP",
+        "6100100009",
+        "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xhtml"
+      ],
+      "flags": 0,
+      "guid": "6100100008",
+      "note_model_uuid": "bfa36940-2042-11e9-8b6a-acbc3287506b",
+      "tags": [
+
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "What is the Internet Protocol Number for UDP?",
+        "17",
+        "6100100008",
+        "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xhtml"
+      ],
+      "flags": 0,
+      "guid": "6100100009",
+      "note_model_uuid": "bfa36940-2042-11e9-8b6a-acbc3287506b",
+      "tags": [
+
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "What is Internet Protocol Number 47?",
+        "GRE - Generic Routing Encapsulation",
+        "6100100011",
+        "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xhtml"
+      ],
+      "flags": 0,
+      "guid": "6100100010",
+      "note_model_uuid": "bfa36940-2042-11e9-8b6a-acbc3287506b",
+      "tags": [
+
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "What is the Internet Protocol Number for GRE (Generic Routing Encapsulation)?",
+        "47",
+        "6100100010",
+        "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xhtml"
+      ],
+      "flags": 0,
+      "guid": "6100100011",
+      "note_model_uuid": "bfa36940-2042-11e9-8b6a-acbc3287506b",
+      "tags": [
+
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "What Wireshark display filter matches on hostname?",
+        "ip.host - but name resolution must be enabled in wireshark",
+        "6100100013",
+        "https://www.wireshark.org/docs/wsug_html_chunked/ChWorkBuildDisplayFilterSection.html#_display_filter_fields"
+      ],
+      "flags": 0,
+      "guid": "6100100012",
+      "note_model_uuid": "bfa36940-2042-11e9-8b6a-acbc3287506b",
+      "tags": [
+
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "What does the ip.host Wireshark display filter do?",
+        "Matches on resolved name of the IP if name resolution is enabled.",
+        "6100100012",
+        "https://www.wireshark.org/docs/wsug_html_chunked/ChWorkBuildDisplayFilterSection.html#_display_filter_fields"
+      ],
+      "flags": 0,
+      "guid": "6100100013",
+      "note_model_uuid": "bfa36940-2042-11e9-8b6a-acbc3287506b",
+      "tags": [
+
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "What LibPCAP option can match frames that use a specific gateway?",
+        "gateway <host name or IP>",
+        "6100100015",
+        "https://www.tcpdump.org/manpages/pcap-filter.7.html"
+      ],
+      "flags": 0,
+      "guid": "6100100014",
+      "note_model_uuid": "bfa36940-2042-11e9-8b6a-acbc3287506b",
+      "tags": [
+
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "In LibPCAP what does the 'gateway' filter do?",
+        "Matches frames using a particular gateway.",
+        "6100100014",
+        "https://www.tcpdump.org/manpages/pcap-filter.7.html"
+      ],
+      "flags": 0,
+      "guid": "6100100015",
+      "note_model_uuid": "bfa36940-2042-11e9-8b6a-acbc3287506b",
+      "tags": [
+
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "What route source has a default administrative distance of 0?",
+        "Connected Interface",
+        "6100100017",
+        "https://www.cisco.com/c/en/us/support/docs/ip/border-gateway-protocol-bgp/15986-admin-distance.html"
+      ],
+      "flags": 0,
+      "guid": "6100100016",
+      "note_model_uuid": "bfa36940-2042-11e9-8b6a-acbc3287506b",
+      "tags": [
+
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "What is the default administrative distance of a Connected interface?",
+        "Zero",
+        "6100100016",
+        "https://www.cisco.com/c/en/us/support/docs/ip/border-gateway-protocol-bgp/15986-admin-distance.html"
+      ],
+      "flags": 0,
+      "guid": "6100100017",
+      "note_model_uuid": "bfa36940-2042-11e9-8b6a-acbc3287506b",
+      "tags": [
+
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "What route source has a default administrative distance of 1?",
+        "Static route",
+        "6100100019",
+        "https://www.cisco.com/c/en/us/support/docs/ip/border-gateway-protocol-bgp/15986-admin-distance.html"
+      ],
+      "flags": 0,
+      "guid": "6100100018",
+      "note_model_uuid": "bfa36940-2042-11e9-8b6a-acbc3287506b",
+      "tags": [
+
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "What is the default administrative distance of a static route?",
+        "One",
+        "6100100018",
+        "https://www.cisco.com/c/en/us/support/docs/ip/border-gateway-protocol-bgp/15986-admin-distance.html"
+      ],
+      "flags": 0,
+      "guid": "6100100019",
+      "note_model_uuid": "bfa36940-2042-11e9-8b6a-acbc3287506b",
+      "tags": [
+
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "What route source has a default administrative distance of 5?",
+        "EIGRP Summary route",
+        "6100100021",
+        "https://www.cisco.com/c/en/us/support/docs/ip/border-gateway-protocol-bgp/15986-admin-distance.html"
+      ],
+      "flags": 0,
+      "guid": "6100100020",
+      "note_model_uuid": "bfa36940-2042-11e9-8b6a-acbc3287506b",
+      "tags": [
+
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "What is the default administrative distance of an EIGRP Summary route?",
+        "Five",
+        "6100100020",
+        "https://www.cisco.com/c/en/us/support/docs/ip/border-gateway-protocol-bgp/15986-admin-distance.html"
+      ],
+      "flags": 0,
+      "guid": "6100100021",
+      "note_model_uuid": "bfa36940-2042-11e9-8b6a-acbc3287506b",
+      "tags": [
+
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "What route source has a default administrative distance of 20?",
+        "eBGP",
+        "6100100023",
+        "https://www.cisco.com/c/en/us/support/docs/ip/border-gateway-protocol-bgp/15986-admin-distance.html"
+      ],
+      "flags": 0,
+      "guid": "6100100022",
+      "note_model_uuid": "bfa36940-2042-11e9-8b6a-acbc3287506b",
+      "tags": [
+
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "What is the default administrative distance of an eBGP route?",
+        "20",
+        "6100100022",
+        "https://www.cisco.com/c/en/us/support/docs/ip/border-gateway-protocol-bgp/15986-admin-distance.html"
+      ],
+      "flags": 0,
+      "guid": "6100100023",
+      "note_model_uuid": "bfa36940-2042-11e9-8b6a-acbc3287506b",
+      "tags": [
+
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "What route source has a default administrative distance of 90?",
+        "Internal EIGRP",
+        "6100100025",
+        "https://www.cisco.com/c/en/us/support/docs/ip/border-gateway-protocol-bgp/15986-admin-distance.html"
+      ],
+      "flags": 0,
+      "guid": "6100100024",
+      "note_model_uuid": "bfa36940-2042-11e9-8b6a-acbc3287506b",
+      "tags": [
+
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "What is the default administrative distance of an Internal EIGRP route?",
+        "90",
+        "6100100024",
+        "https://www.cisco.com/c/en/us/support/docs/ip/border-gateway-protocol-bgp/15986-admin-distance.html"
+      ],
+      "flags": 0,
+      "guid": "6100100025",
+      "note_model_uuid": "bfa36940-2042-11e9-8b6a-acbc3287506b",
+      "tags": [
+
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "What route source has a default administrative distance of 100?",
+        "IGRP (deprecated by EIGRP)",
+        "6100100027",
+        "https://www.cisco.com/c/en/us/support/docs/ip/border-gateway-protocol-bgp/15986-admin-distance.html"
+      ],
+      "flags": 0,
+      "guid": "6100100026",
+      "note_model_uuid": "bfa36940-2042-11e9-8b6a-acbc3287506b",
+      "tags": [
+
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "What is the default administrative distance of IGRP (deprecated by EIGRP)?",
+        "100",
+        "6100100026",
+        "https://www.cisco.com/c/en/us/support/docs/ip/border-gateway-protocol-bgp/15986-admin-distance.html"
+      ],
+      "flags": 0,
+      "guid": "6100100027",
+      "note_model_uuid": "bfa36940-2042-11e9-8b6a-acbc3287506b",
+      "tags": [
+
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "What route source has a default administrative distance of 110?",
+        "OSPF",
+        "6100100029",
+        "https://www.cisco.com/c/en/us/support/docs/ip/border-gateway-protocol-bgp/15986-admin-distance.html"
+      ],
+      "flags": 0,
+      "guid": "6100100028",
+      "note_model_uuid": "bfa36940-2042-11e9-8b6a-acbc3287506b",
+      "tags": [
+
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "What is the default administrative distance of OSPF?",
+        "110",
+        "6100100028",
+        "https://www.cisco.com/c/en/us/support/docs/ip/border-gateway-protocol-bgp/15986-admin-distance.html"
+      ],
+      "flags": 0,
+      "guid": "6100100029",
+      "note_model_uuid": "bfa36940-2042-11e9-8b6a-acbc3287506b",
+      "tags": [
+
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "What route source has a default administrative distance of 115?",
+        "IS-IS",
+        "6100100031",
+        "https://www.cisco.com/c/en/us/support/docs/ip/border-gateway-protocol-bgp/15986-admin-distance.html"
+      ],
+      "flags": 0,
+      "guid": "6100100030",
+      "note_model_uuid": "bfa36940-2042-11e9-8b6a-acbc3287506b",
+      "tags": [
+
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "What is the default administrative distance of IS-IS?",
+        "115",
+        "6100100030",
+        "https://www.cisco.com/c/en/us/support/docs/ip/border-gateway-protocol-bgp/15986-admin-distance.html"
+      ],
+      "flags": 0,
+      "guid": "6100100031",
+      "note_model_uuid": "bfa36940-2042-11e9-8b6a-acbc3287506b",
+      "tags": [
+
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "What route source has a default administrative distance of 120?",
+        "RIP",
+        "6100100033",
+        "https://www.cisco.com/c/en/us/support/docs/ip/border-gateway-protocol-bgp/15986-admin-distance.html"
+      ],
+      "flags": 0,
+      "guid": "6100100032",
+      "note_model_uuid": "bfa36940-2042-11e9-8b6a-acbc3287506b",
+      "tags": [
+
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "What is the default administrative distance of RIP?",
+        "120",
+        "6100100032",
+        "https://www.cisco.com/c/en/us/support/docs/ip/border-gateway-protocol-bgp/15986-admin-distance.html"
+      ],
+      "flags": 0,
+      "guid": "6100100033",
+      "note_model_uuid": "bfa36940-2042-11e9-8b6a-acbc3287506b",
+      "tags": [
+
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "What route source has a default administrative distance of 140?",
+        "Exterior Gateway Protocol (Deprecated by BGP)",
+        "6100100035",
+        "https://www.cisco.com/c/en/us/support/docs/ip/border-gateway-protocol-bgp/15986-admin-distance.html"
+      ],
+      "flags": 0,
+      "guid": "6100100034",
+      "note_model_uuid": "bfa36940-2042-11e9-8b6a-acbc3287506b",
+      "tags": [
+
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "What is the default administrative distance of Exterior Gateway Protocol (deprecated by BGP)?",
+        "140",
+        "6100100034",
+        "https://www.cisco.com/c/en/us/support/docs/ip/border-gateway-protocol-bgp/15986-admin-distance.html"
+      ],
+      "flags": 0,
+      "guid": "6100100035",
+      "note_model_uuid": "bfa36940-2042-11e9-8b6a-acbc3287506b",
+      "tags": [
+
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "What route source has a default administrative distance of 160?",
+        "On Demand Routing",
+        "6100100037",
+        "https://www.cisco.com/c/en/us/support/docs/ip/border-gateway-protocol-bgp/15986-admin-distance.html"
+      ],
+      "flags": 0,
+      "guid": "6100100036",
+      "note_model_uuid": "bfa36940-2042-11e9-8b6a-acbc3287506b",
+      "tags": [
+
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "What is the default administrative distance of On Demand Routing?",
+        "160",
+        "6100100036",
+        "https://www.cisco.com/c/en/us/support/docs/ip/border-gateway-protocol-bgp/15986-admin-distance.html"
+      ],
+      "flags": 0,
+      "guid": "6100100037",
+      "note_model_uuid": "bfa36940-2042-11e9-8b6a-acbc3287506b",
+      "tags": [
+
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "What route source has a default administrative distance of 170?",
+        "External EIGRP",
+        "6100100039",
+        "https://www.cisco.com/c/en/us/support/docs/ip/border-gateway-protocol-bgp/15986-admin-distance.html"
+      ],
+      "flags": 0,
+      "guid": "6100100038",
+      "note_model_uuid": "bfa36940-2042-11e9-8b6a-acbc3287506b",
+      "tags": [
+
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "What is the default administrative distance of an External EIGRP route?",
+        "170",
+        "6100100038",
+        "https://www.cisco.com/c/en/us/support/docs/ip/border-gateway-protocol-bgp/15986-admin-distance.html"
+      ],
+      "flags": 0,
+      "guid": "6100100039",
+      "note_model_uuid": "bfa36940-2042-11e9-8b6a-acbc3287506b",
+      "tags": [
+
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "What route source has a default administrative distance of 200?",
+        "Internal BGP",
+        "6100100041",
+        "https://www.cisco.com/c/en/us/support/docs/ip/border-gateway-protocol-bgp/15986-admin-distance.html"
+      ],
+      "flags": 0,
+      "guid": "6100100040",
+      "note_model_uuid": "bfa36940-2042-11e9-8b6a-acbc3287506b",
+      "tags": [
+
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "What is the default administrative distance of Internal BGP?",
+        "200",
+        "6100100040",
+        "https://www.cisco.com/c/en/us/support/docs/ip/border-gateway-protocol-bgp/15986-admin-distance.html"
+      ],
+      "flags": 0,
+      "guid": "6100100041",
+      "note_model_uuid": "bfa36940-2042-11e9-8b6a-acbc3287506b",
+      "tags": [
+
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "What route source has a default administrative distance of 255?",
+        "Unknown routes - these are not installed in the RIB",
+        "6100100043",
+        "https://www.cisco.com/c/en/us/support/docs/ip/border-gateway-protocol-bgp/15986-admin-distance.html"
+      ],
+      "flags": 0,
+      "guid": "6100100042",
+      "note_model_uuid": "bfa36940-2042-11e9-8b6a-acbc3287506b",
+      "tags": [
+
+      ]
+    },
+    {
+      "__type__": "Note",
+      "data": "",
+      "fields": [
+        "What is the default administrative distance of an unknown route source?",
+        "255",
+        "6100100042",
+        "https://www.cisco.com/c/en/us/support/docs/ip/border-gateway-protocol-bgp/15986-admin-distance.html"
+      ],
+      "flags": 0,
+      "guid": "6100100043",
+      "note_model_uuid": "bfa36940-2042-11e9-8b6a-acbc3287506b",
+      "tags": [
+
+      ]
+    }
+  ]
+}
